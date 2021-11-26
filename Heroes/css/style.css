@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{ 
+    margin:0;	
+    box-sizing: border-box;	  
+    font-family:'Roboto', sans-serif;
+}
+
+div.dcto{
+    background-color:#D1891C;
+    font-size: 48px;  
+    font-weight: 400;
+    padding-top:5px;
+    padding-left:20px; 
+}
+h1{
+    background-color: #00669F;
+    font-size:72px;  
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    box-shadow: 0px 6px 0px gainsboro;
+}
+
+main{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.bloque{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+div.bloque section{
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 150px;    
+}
+
+section h2{
+    position: absolute;
+    top:750px;
+    font-size:60px;  
+    padding: 20px;
+    font-weight: 250;
+    text-align: center;
+    z-index: 2;
+}
+
+div.profile{
+    position: absolute;
+    top: 350px;
+    z-index: 1;
+}
+
+
+div.heart{
+    position: absolute;
+    top: 80px;
+    left: 10%;  
+    /*También lo intenté con self align start*/   
+}
+
+div.back {
+    position: relative;
+    top:65px;
+}
+
+p{
+    font-size: 36px;
+    width: 806px;
+    height: 872px;
+    padding: 300px 40px 150px;
+    background-color:#F3F3F3;
+    position: relative;
+    box-shadow: 0px 6px 0px gainsboro;
+}
+
+button{
+    color: white;
+    position: absolute;
+    top:1250px;
+    
+    font-size: 36px;
+    background-color:#00669F;
+    padding:20px 60px;
+    border:none;
+    border-radius:5%;
+}
+
+footer{  
+   background-color: #00669F;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-top: 190px; 
+}
+
+footer div.final{
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 45vh;   
+}
+
+footer div.git{
+  padding-left: 20vh;    
+}
+
+@media(max-width: 829px){
+    
+    .main{
+        width: 50%;
+    }
+    main div section.none {
+        display: none;
+        
+    }
+ }

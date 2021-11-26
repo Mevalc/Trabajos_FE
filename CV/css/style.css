@@ -1,0 +1,128 @@
+html{
+    font-family:'Zen Kaku Gothic New', sans-serif;
+}
+.banner{
+    background-image: url('../img/hoja2.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.foto{
+    position: relative;
+    top:80px;
+    }
+
+h1{
+    color: white;
+    position: relative; 
+    top:36px;
+    text-align:center;
+    background-color: rgb(208, 236, 215);
+    letter-spacing: 10px; 
+}
+
+.title1{
+    background-color: rgb(208, 236, 215);
+    color: white;
+    letter-spacing: 10px;
+    position:relative;
+    top:50px;
+    text-align: center;
+} 
+
+.p1{
+    box-sizing: border-box;
+    position: absolute;
+    top:300px;
+    text-align: justify;
+    padding: 0px 30px; 
+}
+
+.title2{
+    background-color: rgb(208, 236, 215);
+    color: white;
+    letter-spacing: 10px;
+    position:relative;
+    top:150px;
+    text-align: center;
+}
+.p2{
+    box-sizing: border-box;
+    position: relative;
+    top:150px;
+    text-align: justify;
+    padding-left: 30px;
+}
+.negrita{
+    font-weight: bold;
+}
+article{
+    padding-left: 70px;
+}
+ul{
+    padding-left: 10px;
+}
+.title3{
+    background-color: rgb(208, 236, 215);
+    color: white;
+    font-style: uppercase;
+    letter-spacing: 10px;
+    position:relative;
+    top:150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p3{
+    box-sizing: border-box;
+    position: absolute;
+    top:600px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+.title4{
+    background-color: rgb(208, 236, 215);
+    color: white;
+    font-style: uppercase;
+    letter-spacing: 10px;
+    position:relative;
+    top:250px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p4{
+    box-sizing: border-box;
+    position: absolute;
+    top:750px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.enlace{ 
+    position: absolute;
+    bottom: 10px;
+    right: 10vh;
+    background-color: rgb(181, 240, 240);
+   
+}
+.redes{
+   font-size: 24px;
+   background-color: thistle;
+}
+
+main div.social{
+    text-align: center;
+}
+
+h3{
+    padding-left: 30px;
+    font-size: 60PX;
+}
+
+.foot2{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
